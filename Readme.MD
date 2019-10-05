@@ -1,7 +1,7 @@
 A system to create bookings for massages that
  is available on the web.
 
-Requirements
+<b>Requirements</b>
 * All appointments are 40 minutes long and have fixed times, starting from 9–9:40 am
 * Ensure there is always a 5 minute break in between each appointment
 * Appointments can only be booked during weekdays from 9 am to 6 pm
@@ -9,7 +9,7 @@ Requirements
 * Appointments cannot be booked in the past
 * For simplicity, use UTC time for all bookings and days
 
-Endpoints :
+<b>Endpoints</b> :
 
 1. GET bookable days
 
@@ -60,6 +60,8 @@ POST  /book?year=yyyy&month=MM&day=dd&hour=hh&minute=mm
 Returns a boolean field success. If the booking was successful, also return startTime and endTime.
 
 
+<b>Run instructions</b> ->
 
-Run instructions ->
+npm install
+
 node app.js
